@@ -1,0 +1,13 @@
+<h1>Splohr</h1>
+
+<div class="status-view" *ngIf="peers && stats">
+    {{stats.coinTag}}<br>
+    Connected to {{peers.length}} nodes.<br>
+    Current Block Height is {{stats.blockHeight}}<br>
+</div>
+
+<ul>
+    <li *ngFor="let peer of peers">
+        {{ peer.addr }} ({{ peer.subVer }})
+    </li>
+</ul>
