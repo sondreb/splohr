@@ -7,7 +7,17 @@ explore
 [ ik-splawr, -splohr 
 ```
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.12.
+# Update 2021
+
+This project started with an idea to make a really basic and beautiful blockchain explorer. Eventually I instead did another explorer that is available here:
+
+https://github.com/block-core/blockcore-explorer
+
+It is a multi-chain block explorer and you can view it here in action:
+
+https://explorer.blockcore.net/
+
+That means this project likely won't be developed any further.
 
 ## Development server
 
